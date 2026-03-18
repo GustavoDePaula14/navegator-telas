@@ -32,7 +32,7 @@ fun PedidosScreen(navController: NavController, numeroPedido: String) {
             color = Color.White
         )
         Button(
-            onClick = {navController.navigate("menu") },
+            onClick = {navController.popBackStack() },
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White
             ),
